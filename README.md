@@ -21,6 +21,15 @@
 
 TrustChains is a state-of-the-art decentralized lending platform designed to unify the peer-to-peer financial journey. By connecting Borrowers, Lenders, and Community Governors into a single, cohesive ecosystem, TrustChains removes banking intermediaries and empowers users with real-time on-chain trust scoring, AI-driven identity verification, and immutable smart contract execution.
 
+<br/>
+
+<div align="center">
+
+## 🏗️ System Architecture
+![Architecture Diagram](./assets/Architecture_diagram.png)
+
+</div>
+
 ---
 
 ## 🎭 Role-Based Access
