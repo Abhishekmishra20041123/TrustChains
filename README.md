@@ -130,6 +130,22 @@ A transparent, immutable history of all platform activity, including loan disbur
 
 ---
 
+<br/>
+
+<div align="center">
+
+## 🎥 Live Demonstration
+
+<h3><a href="https://bit.ly/43tKse1">📺 Watch the TrustChains Demo Video Here</a></h3>
+
+<img src="./assets/QrCode.png" alt="Scan to use TrustChains" width="150" />
+<br />
+**Scan the QR Code to experience TrustChains on your mobile device.**
+
+</div>
+
+---
+
 ## 🛠️ Tech Stack & Architecture
 
 ### 💻 Frontend
