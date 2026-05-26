@@ -55,6 +55,7 @@ Seamless extraction and validation of Aadhaar and PAN documents using Optical Ch
 
 ### 🦊 Web3 Wallet Integration
 ![MetaMask Connection](./assets/MetaMask.png)
+
 A secure bridge to the blockchain. Users connect their MetaMask wallet to cryptographically sign loan agreements, receive funds, and execute repayments directly on the Ethereum network.
 
 ---
