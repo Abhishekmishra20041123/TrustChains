@@ -14,7 +14,7 @@ export const AppTopbar = ({ toggleSidebar }) => {
   const location = useLocation();
   const [title, setTitle] = useState('Dashboard');
   const showToast = useToast();
-  const { account, connectWallet, rtkContract } = useContext(Web3Context);
+  const { account, connectWallet, rtkContract, connectError } = useContext(Web3Context);
 
   useEffect(() => {
     setTitle(SCREEN_TITLES[location.pathname] || '');
@@ -74,11 +74,8 @@ export const AppTopbar = ({ toggleSidebar }) => {
             style={{ backgroundColor: '#F6851B', color: '#fff', fontSize: '13px', padding: '6px 12px', border: 'none', borderRadius: '8px', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '6px' }}
             onClick={async (e) => {
               e.preventDefault();
-              try {
-                await connectWallet();
-              } catch (err) {
-                console.error('connectWallet threw an error:', err);
-              }
+              const result = await connectWallet();
+              if (!result && connectError) showToast(connectError, 'error');
             }}
           >
             <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Fox.svg" alt="MetaMask" style={{ width: '16px', height: '16px' }} />

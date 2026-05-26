@@ -63,7 +63,7 @@ export const LoginPage = () => {
       email: data.user.email,
       initials: (profile?.full_name || 'U').substring(0, 2).toUpperCase(),
       avatarColor: profile?.avatar_color || '#3B9B9B',
-      trustScore: 72,
+      trustScore: profile?.trust_score ?? 50,
       kycStatus: profile?.kyc_status || 'pending',
       walletAddress: profile?.wallet_address || null,
     });
@@ -161,7 +161,7 @@ export const LoginPage = () => {
               boxShadow: '0 4px 16px rgba(59,155,155,0.3)',
             }}
           >
-            {loading ? 'Signing in...' : 'Sign In \u2192'}
+            {loading ? 'Signing in...' : 'Sign In →'}
           </button>
         </form>
 
