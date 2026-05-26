@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>🤝 TrustChains — Decentralized Trust Economy</h1>
+<h1><img src="./public/logo.svg" width="60" alt="Logo" style="vertical-align: middle; margin-bottom: 8px;"/> TrustChains — Decentralized Trust Economy</h1>
 
 **A premium, web3-powered peer-to-peer micro-lending ecosystem bridging the gap between borrowers and lenders through AI identity verification, on-chain trust scores, and secure smart contracts.**
 
