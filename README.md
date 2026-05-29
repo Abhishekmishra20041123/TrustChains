@@ -4,7 +4,7 @@
 
 **A premium, web3-powered peer-to-peer micro-lending ecosystem bridging the gap between borrowers and lenders through AI identity verification, on-chain trust scores, and secure smart contracts.**
 
----
+--- 
 
 [![React](https://img.shields.io/badge/React-19.2-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-8.0-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
